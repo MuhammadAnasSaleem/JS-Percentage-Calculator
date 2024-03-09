@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="head-container">
+        <h1 id="main-heading">Result Generator By JS</h1>
+    </div>
+    <div class="big-box">
+        <div id="container"> 
+            <div class="math-div"><label for="math">
+                <h2 id="math-head">Maths</h2>
+            </label>
+            <input class="form-input" id="math" type="number" placeholder="Enter Your Marks Here" max="100" ></div>
+            <div class="chemistry-div"><label for="chemistry">
+                <h2 id="chemistry-head">Chemistry</h2>
+            </label>
+            <input class="form-input" id="chemistry" type="number" placeholder="Enter Your Marks Here" max="100"></div>
+            <div class="physics-div"><label for="physics">
+                <h2 id="physics-head">Physics</h2>
+            </label>
+            <input class="form-input" id="physics" type="number" placeholder="Enter Your Marks Here" max="100"></div>
+            <div class="biology-div"><label for="biology">
+                <h2 id="biology-head">Biology</h2>
+            </label>
+            <input class="form-input" id="biology" type="number" placeholder="Enter Your Marks Here" max="100"></div>
+            <button id="btn" onclick="result ()">Submit</button>
+        </div>
+        <div class="result-container"> 
+            <h2 class="total-marks">Total Marks =    <span id="student-marks"></span></h2>
+            <h2 class="percentage">Percentage = <span id="percentage"></span>%</h2>
+            <h2 class="grade">Grade = <span id="grade"></span></h2>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

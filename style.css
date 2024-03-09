@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #03312E;
+}
+.big-box{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    color: #02C3BD;
+}
+.form-input{
+    width: 250px;
+    height: 35px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #037171;
+    border: none;
+    color: #8af7f7;
+    font-weight: bold;
+    
+}
+.form-input:hover,.form-input:focus-within{
+    box-shadow: 0 0 10px 2pxs;
+}
+.form-input::placeholder{
+    color: #8af7f7;
+    font-family: "Poppins", sans-serif;
+}
+.head-container{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Poppins" , sans-serif;
+    color: #037171;
+}
+.math-div,.chemistry-div,.physics-div,.biology-div{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#math-head,#chemistry-head,#physics-head,#biology-head{
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+.result-container{
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 60px;
+    color: #02C3BD;
+
+}
+.total-marks,.percentage,.grade{
+    margin-top: 40px;
+}
+#btn{
+    width: 150px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: #8af7f7;
+    background-color: #01888394;
+    border: none;
+}
